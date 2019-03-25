@@ -16,4 +16,16 @@ public class Rental
 	
 	private Movie movie;
 	private int daysRented;
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return movie.getTitle();
+	}
+
+	public double determineAmount() {
+		return movie.determineAmount(daysRented);
+	}
+	
+	int determineFrequentRenterPoints() {
+		return movie.determineFrequentRenterPoints(daysRented);
+	}
 }
