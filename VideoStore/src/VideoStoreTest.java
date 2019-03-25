@@ -1,7 +1,12 @@
 import junit.framework.*;
 import org.junit.Assert.assertEquals;
 
+<<<<<<< HEAD
 public class VideoStoreTest
+=======
+
+public class VideoStoreTest extends TestCase
+>>>>>>> parent of 62f0d23... Initial Commit.
 {
 	private Statement statement;
 	

@@ -67,6 +67,7 @@ public class Statement
 		return result;
 	}
 	
+<<<<<<< HEAD:VideoStore/src/Statement.java
 	public double getTotal() {
 		// TODO Auto-generated method stub
 		return totalAmount;
@@ -76,4 +77,8 @@ public class Statement
 		// TODO Auto-generated method stub
 		return frequentRenterPoints;
 	}
+=======
+	private String name;
+	private Vector rentals = new Vector ();
+>>>>>>> parent of 62f0d23... Initial Commit.:VideoStore/src/Customer.java
 }
